@@ -13,10 +13,46 @@
   <link href="js/plugins/gritter/jquery.gritter.css" rel="stylesheet">
   <link href="css/animate.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
+  <style>
+    .successPage {
+      text-align: center;
+      padding: 40px 0;
+      background: #EBF0F5;
+    }
+    .card > h1 {
+        color: #88B04B;
+        font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+        font-weight: 900;
+        font-size: 40px;
+        margin-bottom: 10px;
+        text-align: center;
+      }
+    .card > p {
+        color: #404F5E;
+        font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+        font-size:20px;
+        margin: 0;
+        text-align: center;
+      }
+    .checkmark {
+      color: #9ABC66;
+      font-size: 100px;
+      line-height: 200px;
+      margin-left:55px;
+    }
+    .card {
+      background: white;
+      padding: 60px;
+      border-radius: 4px;
+      box-shadow: 0 2px 3px #C8D0D8;
+      /* display: inline-block; */
+      margin: 0 auto;
+    }
+  </style>
 </head>
 
 <body>
-  <div id="wrapper">
+  <div id="wrapper successPage">
     <nav class="navbar-default navbar-static-side" role="navigation">
       <div class="sidebar-collapse">
         <ul class="nav metismenu" id="side-menu">
@@ -53,135 +89,38 @@
                     class="fa fa-envelope-o text-success"></i>&nbsp;info@companyname.com</span> </li>
               <li class="text-muted "> <a href="registration.html"> <i class="fa fa-sign-out text-success"></i> <span
                     class="text-muted ">Registeration</span> </a> </li>
-              <li> <a href="#"> <i class="fa fa-sign-in text-success"></i> <span class="text-muted ">Log In</span> </a>
-              </li>
+              <li> <a href="login.html"> <i class="fa fa-sign-in text-success"></i> <span class="text-muted ">Log
+                    In</span> </a> </li>
 
             </ul>
           </div>
         </nav>
       </div>
-      <div class="row wrapper border-bottom white-bg page-heading">
-        <div class="col-lg-10">
-          <h2>Create <span class="text-danger"> Your Account</span></h2>
-          <ol class="breadcrumb">
-            <li>
-              <a href="index-2.html">Home</a>
-            </li>
-
-            <li class="active">
-              <strong>Registation Form</strong>
-            </li>
-          </ol>
-        </div>
-        <div class="col-lg-2">
-
-        </div>
-      </div>
-      <br>
 
       <div class="ibox-content">
         <div class="row">
-          <div class="col-md-12">
-            <h3 class="m-t-none m-b text-navy">Sign in</h3>
-            <form role="form" action="successPage.html">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="col-md-4">
-                    <label><em style="color:red"> *</em>&nbsp;Patient Name:</label> 
-                  </div>
-                  <div class="col-md-8">
-                    <input placeholder="Patient Name" class="form-control" type="text">
-                  </div>
+            <div class="card">
+                <div style="border-radius:200px; height:200px; width:200px; background: #F8FAF5; margin:0 auto;">
+                    <i class="checkmark">✓</i>
                 </div>
-                <div class="col-md-6">
-                  <div class="col-md-4">
-                    <label class="control-label"><em style="color:red"> *</em>&nbsp;Patient
-                      Details:</label>
-                  </div>
-                  <div class="col-md-8">
-                    <input placeholder="Patient Details" class="form-control" type="text">
-                  </div>
-                </div>
-              </div><br>
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="col-md-4">
-                    <label class="control-label"><em style="color:red"> *</em>&nbsp;Patient
-                      Details:</label>
-                  </div>
-                  <div class="col-md-8">
-                    <input placeholder="Patient Details" class="form-control" type="text">
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="col-md-4">
-                    <label class="control-label"><em style="color:red"> *</em>&nbsp;Doctor's
-                      Inputs:</label>
-                  </div>
-                  <div class="col-md-8">
-                    <textarea id="doctorsInputs" class="form-control" rows="4" cols="50"></textarea>
-                  </div>
-                </div>
-              </div><br>
-
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="col-md-4"><label class="control-label">&nbsp;Room Number:</label></div>
-                  <div class="col-md-8">
-                    <input placeholder="Room Number" class="form-control" type="text">
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="col-md-4">
-                    <label class="control-label"><em style="color:red"> *</em>&nbsp;Bed
-                      Number:</label>
-                  </div>
-                  <div class="col-md-8">
-                    <input placeholder="Bed Number" class="form-control" type="text">
-                  </div>
-                </div>
-              </div><br>
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="col-md-4">
-                    <label class=" control-label"><em style="color:red"> *</em>&nbsp;CheckIn
-                      Date:</label>
-                  </div>
-                  <div class="col-md-8"><input placeholder="Enter Password" class="form-control" type="date"></div>
-                </div>
-                <div class="col-md-6">
-                  <div class="col-md-4"><label class="control-label">CheckOut Date</label></div>
-                  <div class="col-md-8"><input placeholder="Enter From" class="form-control" type="date"></div>
-                </div>
-              </div><br>
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="col-md-4">
-                    <label class=" control-label"><em style="color:red"> *</em>&nbsp;Documents :
-                    </label>
-                  </div>
-                  <div class="col-md-8"><input placeholder="Documents" class="form-control" type="file" multiple></div>
-                </div>
-                <div class="col-md-6">
-                </div>
-              </div><br>
-              <div class="row">
-                <div class="col-md-12">
-                  <button class="btn btn-sm btn-primary pull-Center m-t-n-xs" style="float: right;
-                  margin-bottom: 7px;" type="submit"><strong>Submit</strong></button>
-                </div>
-              </div>
-            </form>
-          </div>
+                <h1>Success</h1>
+                <p>We received your request;<br /> we'll be in touch shortly!</p>
         </div>
-      </div>
+        <div class="row">
+            <div class="col-md-12">
+                <button class="btn btn-sm btn-primary pull-Center m-t-n-xs" style="float: right;
+                margin-bottom: 7px; margin-top: 10px;" type="submit" onclick="location.href='index.html'"><strong>Back to home</strong></button>
+            </div>
+        </div>
+      </div><br>
       <br>
       <br>
       <br>
-      <br>
+
       <div class="footer">
-        <div class="pull-right"> Ashray - A RealPage Initiative </div>
-        <div> <strong>Copyright</strong> RealPage &copy; @2015 </div>
+        <div class="pull-right"> Trcukamania!! </div>
+        <div> <strong>Copyright</strong> Example Company &copy; @2015 </div>
+
       </div>
     </div>
 
@@ -270,5 +209,6 @@
     });
   </script>
 </body>
+<!-- Mirrored from webapplayers.com/inspinia_admin-v2.3/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 30 Nov 2015 17:58:48 GMT -->
 
 </html>
