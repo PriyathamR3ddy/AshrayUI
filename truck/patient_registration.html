@@ -92,82 +92,104 @@
 
                                 </div>
                                 <div class="ibox-content">
-                                    <form role="patientReg">
+                                    <form role="patientReg" style="padding-top: 10px;">
                                         <div class="row">
                                             <div class="col-md-6 form-group">
-                                                <label for="controlCenterName" class="col-form-label">Control Center Name:</label>
-                                                <input type="text" class="form-control" id="controlCenterName" placeholder="Enter contol center name">
+                                                <div class="col-md-4">
+                                                    <label for="controlCenterName" class="col-form-label">Control Center Name:</label>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <input type="text" class="form-control" id="controlCenterName" placeholder="Enter contol center name">
+                                                </div>
                                             </div>
                                             <div class="col-md-6 form-group">
-                                                <label for="dateTime" class="col-form-label">Date Time:</label>
+                                                <div class="col-md-4"><label for="dateTime" class="col-form-label">Date Time:</label></div>
+                                                <div class="col-md-8"></div>
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="col-md-6 form-group">
-                                                <label for="patientName" class="col-form-label">Patient Name:</label>
-                                                <input type="text" class="form-control" id="patientName" placeholder="Enter patient name">
+                                                <div class="col-md-4">
+                                                    <label for="patientName" class="col-form-label">Patient Name:</label>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <input type="text" class="form-control" id="patientName" placeholder="Enter patient name">
+                                                </div>
                                             </div>
                                             <div class="col-md-6 form-group">
-                                                <label for="result" class="col-form-label">Result:</label>
-                                                <select name="ddlResult"
-                                                id="ddlResult" class="form-control">
+                                                <div class="col-md-4">
+                                                    <label for="result" class="col-form-label">Result:</label>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <select name="ddlResult"
+                                                    id="ddlResult" class="form-control">
                                                     <option selected="selected" value="Select">Select</option>
                                                     <option value="Positive">Positive</option>
                                                     <option value="Negative">Negative</option>
-                                                </select>
+                                                    </select>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="col-md-6 form-group">
-                                                <label for="rtpcrTestNum" class="col-form-label">RTPCR Test Number:</label>
-                                                <input type="text" class="form-control" id="rtpcrTestNum">
+                                                <div class="col-md-4"><label for="rtpcrTestNum" class="col-form-label">RTPCR Test Number:</label></div>
+                                                <div class="col-md-8"><input type="text" class="form-control" id="rtpcrTestNum"></div>
                                             </div>
                                             <div class="col-md-6 form-group">
-                                                <label for="contactNumber" class="col-form-label">Contact Number:</label>
-                                                <input type="text" class="form-control" id="contactNumber">
+                                                <div class="col-md-4"><label for="contactNumber" class="col-form-label">Contact Number:</label></div>
+                                                <div class="col-md-8"><input type="text" class="form-control" id="contactNumber"></div>
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="col-md-6 form-group">
-                                                <label for="governmantId" class="col-form-label">Governmant ID:</label>
-                                                <input type="text" class="form-control" id="governmantId">
+                                                <div class="col-md-4"><label for="governmantId" class="col-form-label">Governmant ID:</label></div>
+                                                <div class="col-md-8"><input type="text" class="form-control" id="governmantId"></div>
                                             </div>
                                             <div class="col-md-6 form-group">
-                                                <label for="gender" class="col-form-label">Gender:</label>
-                                                <select name="ddlGender"
-                                                id="ddlGender" class="form-control">
+                                                <div class="col-md-4"><label for="gender" class="col-form-label">Gender:</label></div>
+                                                <div class="col-md-8">
+                                                    <select name="ddlGender"
+                                                    id="ddlGender" class="form-control">
                                                     <option selected="selected" value="Select">Select</option>
                                                     <option value="Male">Male</option>
                                                     <option value="Female">Female</option>
-                                                    <option value="Other">Other</option>
-                                                </select>
+                                                    <option value="Other">Others</option>
+                                                    </select>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="col-md-6 form-group">
-                                                <label for="attenderName" class="col-form-label">Attender Name:</label>
-                                                <input type="text" class="form-control" id="attenderName">
+                                                <div class="col-md-4"><label for="attenderName" class="col-form-label">Attender Name:</label></div>
+                                                <div class="col-md-8"><input type="text" class="form-control" id="attenderName"></div>
                                             </div>
                                             <div class="col-md-6 form-group">
-                                                <label for="age" class="col-form-label">Age:</label>
-                                                <input type="text" class="form-control" id="age">
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6 form-group">
-                                                <label for="address" class="col-form-label">Address:</label>
-                                                <textarea id="address" class="form-control" rows="4" cols="50"></textarea>
-                                            </div>
-                                            <div class="col-md-6 form-group">
-                                                <label for="bedsAvailable" class="col-form-label">Beds Available:</label>
+                                                <div class="col-md-4"><label for="age" class="col-form-label">Age:</label></div>
+                                                <div class="col-md-8"><input type="text" class="form-control" id="age"></div>
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="col-md-6 form-group">
-                                                <label for="refferedTo" class="col-form-label">Reffered To:</label>
-                                                <input type="text" class="form-control" id="refferedTo">
+                                                <div class="col-md-4"><label for="address" class="col-form-label">Address:</label></div>
+                                                <div class="col-md-8"><textarea id="address" class="form-control" rows="4" cols="50"></textarea></div>
                                             </div>
                                             <div class="col-md-6 form-group">
+                                                <div class="col-md-4"><label for="bedsAvailable" class="col-form-label">Beds Available:</label></div>
+                                                <div class="col-md-8"></div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6 form-group">
+                                                <div class="col-md-4"><label for="refferedTo" class="col-form-label">Reffered To:</label></div>
+                                                <div class="col-md-8"><input type="text" class="form-control" id="refferedTo"></div>
+                                            </div>
+                                            <div class="col-md-6 form-group">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                              <button class="btn btn-sm btn-primary pull-Center m-t-n-xs" style="float: right;
+                                              margin-bottom: 7px;" type="submit"><strong>Submit</strong></button>
                                             </div>
                                         </div>
                                     </form>
