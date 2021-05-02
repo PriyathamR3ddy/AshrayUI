@@ -92,48 +92,74 @@
 
                                 </div>
                                 <div class="ibox-content">
-
-                                    <table class="table table-striped">
-                                        <thead>
-                                            <tr class="bg-success">
-                                                <th>Name</th>
-                                                <th>Location</th>
-                                                <th>Isolation bed</th>
-                                                <th>Non-Critical + O2</th>
-                                                <th>Critical + O2</th>
-                                                <th>ICU + Ventilator</th>
-                                                <th>Registeration</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>KIMS</td>
-                                                <td>Kondpur</td>
-                                                <td>2</td>
-                                                <td>5</td>
-                                                <td>Not-Avilable</td>
-                                                <td>1</td>
-                                                <td class="text-navy"> <button
-                                                        class="btn btn-sm btn-primary pull-center m-t-n-xs"
-                                                        onClick="location.href='patient_registration.html'"
-                                                        type="submit">&nbsp;&nbsp;<strong><i class="fa fa-login"></i>
-                                                            &nbsp;Register</strong>&nbsp;&nbsp;</button> </td>
-                                            </tr>
-                                            <tr>
-                                                <td>GITAM</td>
-                                                <td>Gachibowli</td>
-                                                <td>5</td>
-                                                <td>2</td>
-                                                <td>10</td>
-                                                <td>Not-Avilable</td>
-                                                <td class="text-navy"> <button
-                                                        class="btn btn-sm btn-primary pull-center m-t-n-xs"
-                                                        onClick="location.href='patient_registration.html'"
-                                                        type="submit">&nbsp;&nbsp;<strong><i class="fa fa-login"></i>
-                                                            &nbsp;Register</strong>&nbsp;&nbsp;</button> </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                    <form role="patientReg">
+                                        <div class="row">
+                                            <div class="col-md-6 form-group">
+                                                <label for="controlCenterName" class="col-form-label">Control Center Name:</label>
+                                                <input type="text" class="form-control" id="controlCenterName" placeholder="Enter contol center name">
+                                            </div>
+                                            <div class="col-md-6 form-group">
+                                                <label for="dateTime" class="col-form-label">Date Time:</label>
+                                                <input type="text" class="form-control" id="dateTime">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6 form-group">
+                                                <label for="patientName" class="col-form-label">Patient Name:</label>
+                                                <input type="text" class="form-control" id="patientName" placeholder="Enter patient name">
+                                            </div>
+                                            <div class="col-md-6 form-group">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6 form-group">
+                                                <label for="rtpcrTestNum" class="col-form-label">RTPCR Test Number:</label>
+                                                <input type="text" class="form-control" id="rtpcrTestNum">
+                                            </div>
+                                            <div class="col-md-6 form-group">
+                                                <label for="result" class="col-form-label">Result:</label>
+                                                <input type="text" class="form-control" id="dateTime">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6 form-group">
+                                                <label for="governmantId" class="col-form-label">Governmant ID:</label>
+                                                <input type="text" class="form-control" id="governmantId">
+                                            </div>
+                                            <div class="col-md-6 form-group">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6 form-group">
+                                                <label for="attenderName" class="col-form-label">Attender Name:</label>
+                                                <input type="text" class="form-control" id="attenderName">
+                                            </div>
+                                            <div class="col-md-6 form-group">
+                                                <label for="contactNumber" class="col-form-label">Contact Number:</label>
+                                                <input type="text" class="form-control" id="contactNumber">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6 form-group">
+                                                <label for="address" class="col-form-label">Address:</label>
+                                                <input type="text" class="form-control" id="address">
+                                            </div>
+                                            <div class="col-md-6 form-group">
+                                                <label for="gender" class="col-form-label">Gender:</label>
+                                                <input type="text" class="form-control" id="gender">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6 form-group">
+                                                <label for="refferedTo" class="col-form-label">Reffered To:</label>
+                                                <input type="text" class="form-control" id="refferedTo">
+                                            </div>
+                                            <div class="col-md-6 form-group">
+                                                <label for="bedsAvailable" class="col-form-label">Beds Available:</label>
+                                                <input type="text" class="form-control" id="bedsAvailable">
+                                            </div>
+                                        </div>
+                                    </form>
                                 </div>
                             </div>
                         </div>
